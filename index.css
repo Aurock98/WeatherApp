@@ -4,7 +4,7 @@ body {
     align-items: center;
     flex-direction: column;
     font-family: "Open Sans", sans-serif;
-    background-image: url('https://picsum.photos/seed/picsum/200'); /*random pics*/
+    background-image: url('https://source.unsplash.com/1600x900/?landscape'); /*random pics*/
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
