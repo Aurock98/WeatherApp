@@ -44,7 +44,7 @@ anime.timeline({loop: false})
 //weather app logic
 
 function cargarCiudad(ciudad) {
-    $.getJSON(`http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&APPID=faeb9fd4d7a74a5189839dc22df4d59e&units=metric&lang=es`, function (data) {
+    $.getJSON(`http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&APPID=faeb9fd4d7a74a5189839dc22df4d59e&units=metric&lang=es`, function (data) { //mi api
         document.querySelector("#ciudad").textContent = data.name
         document.querySelector("#temperatura").textContent = Math.floor(data.main.temp);
         document.querySelector('#grados').innerHTML = '<sup>°C</sup>'
